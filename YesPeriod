@@ -1,0 +1,334 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local openHome = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local open = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Home = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local BloxFruits = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Arsenal = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Antiafk = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local infyield = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Dahood = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Antiafk_2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local JailBreak = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local MadCity = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local BeeSwarm = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Test = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local SonicSpeedSimulator = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TheLostLand = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Petsimx = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local COMINGSOON = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+openHome.Name = "openHome"
+openHome.Parent = ScreenGui
+openHome.BackgroundColor3 = Color3.fromRGB(161, 161, 161)
+openHome.BorderColor3 = Color3.fromRGB(161, 161, 161)
+openHome.Position = UDim2.new(-1.49011612e-08, 0, 0.463220626, 0)
+openHome.Size = UDim2.new(0, 117, 0, 37)
+openHome.Active = true
+openHome.Draggable = true
+
+UICorner.Parent = openHome
+
+open.Name = "open"
+open.Parent = openHome
+open.BackgroundColor3 = Color3.fromRGB(161, 161, 161)
+open.BorderColor3 = Color3.fromRGB(161, 161, 161)
+open.Position = UDim2.new(1.30417007e-07, 0, 0.0810810775, 0)
+open.Size = UDim2.new(0, 116, 0, 31)
+open.Font = Enum.Font.Highway
+open.Text = "< OPEN >"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextSize = 14.000
+open.MouseButton1Down:connect(function()
+	openHome.Visible = false
+	Home.Visible = true
+end)
+
+UICorner_2.Parent = open
+
+Home.Name = "Home"
+Home.Parent = ScreenGui
+Home.BackgroundColor3 = Color3.fromRGB(161, 161, 161)
+Home.BorderColor3 = Color3.fromRGB(161, 161, 161)
+Home.Position = UDim2.new(0.242044374, 0, 0.22067593, 0)
+Home.Size = UDim2.new(0, 569, 0, 281)
+Home.Visible = false
+
+label.Name = "label"
+label.Parent = Home
+label.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+label.Size = UDim2.new(0, 569, 0, 37)
+label.Font = Enum.Font.SourceSans
+label.Text = "X A L I H U B    (>)  1.3.4"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 14.000
+
+UICorner_3.Parent = label
+
+BloxFruits.Name = "Blox Fruits"
+BloxFruits.Parent = Home
+BloxFruits.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+BloxFruits.BorderColor3 = Color3.fromRGB(161, 161, 161)
+BloxFruits.Position = UDim2.new(0.0123022795, 0, 0.156583637, 0)
+BloxFruits.Size = UDim2.new(0, 151, 0, 43)
+BloxFruits.Font = Enum.Font.SourceSans
+BloxFruits.Text = "Blox Fruits"
+BloxFruits.TextColor3 = Color3.fromRGB(0, 0, 0)
+BloxFruits.TextSize = 14.000
+BloxFruits.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+UICorner_4.Parent = BloxFruits
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Home
+Arsenal.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+Arsenal.BorderColor3 = Color3.fromRGB(161, 161, 161)
+Arsenal.Position = UDim2.new(0.309314579, 0, 0.156583637, 0)
+Arsenal.Size = UDim2.new(0, 151, 0, 43)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal [Nexus]"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 14.000
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+end)
+
+UICorner_5.Parent = Arsenal
+
+Antiafk.Name = "Antiafk"
+Antiafk.Parent = Arsenal
+Antiafk.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+Antiafk.BorderColor3 = Color3.fromRGB(161, 161, 161)
+Antiafk.Position = UDim2.new(1.13050663, 0, -0.00620706379, 0)
+Antiafk.Size = UDim2.new(0, 151, 0, 43)
+Antiafk.Font = Enum.Font.SourceSans
+Antiafk.Text = "Anti-Afk"
+Antiafk.TextColor3 = Color3.fromRGB(0, 0, 0)
+Antiafk.TextSize = 14.000
+Antiafk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Akden1z/ANTI-AFK/main/Pro'))()
+end)
+
+UICorner_6.Parent = Antiafk
+
+Close.Name = "Close"
+Close.Parent = Home
+Close.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+Close.BorderColor3 = Color3.fromRGB(161, 161, 161)
+Close.Position = UDim2.new(0.915641487, 0, 0.0177935939, 0)
+Close.Size = UDim2.new(0, 41, 0, 27)
+Close.Font = Enum.Font.Ubuntu
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+Close.MouseButton1Down:connect(function()
+	Home.Visible = false
+	openHome.Visible = true
+end)
+
+UICorner_7.Parent = Close
+
+UICorner_8.Parent = Home
+
+infyield.Name = "inf yield"
+infyield.Parent = Home
+infyield.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+infyield.BorderColor3 = Color3.fromRGB(161, 161, 161)
+infyield.Position = UDim2.new(0.0123022795, 0, 0.345195711, 0)
+infyield.Size = UDim2.new(0, 151, 0, 43)
+infyield.Font = Enum.Font.SourceSans
+infyield.Text = "Infinite yield"
+infyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infyield.TextSize = 14.000
+infyield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_9.Parent = infyield
+
+Dahood.Name = "Da hood"
+Dahood.Parent = Home
+Dahood.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+Dahood.BorderColor3 = Color3.fromRGB(161, 161, 161)
+Dahood.Position = UDim2.new(0.309314579, 0, 0.34519574, 0)
+Dahood.Size = UDim2.new(0, 151, 0, 43)
+Dahood.Font = Enum.Font.SourceSans
+Dahood.Text = "Da hood [Dimag X]"
+Dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dahood.TextSize = 14.000
+Dahood.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+UICorner_10.Parent = Dahood
+
+Antiafk_2.Name = "Antiafk"
+Antiafk_2.Parent = Dahood
+Antiafk_2.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+Antiafk_2.BorderColor3 = Color3.fromRGB(161, 161, 161)
+Antiafk_2.Position = UDim2.new(1.13050663, 0, -0.00620706379, 0)
+Antiafk_2.Size = UDim2.new(0, 151, 0, 43)
+Antiafk_2.Font = Enum.Font.SourceSans
+Antiafk_2.Text = "Zombie Uprising"
+Antiafk_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Antiafk_2.TextSize = 14.000
+Antiafk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Akden1z/ANTI-AFK/main/Pro'))()
+end)
+
+UICorner_11.Parent = Antiafk_2
+
+JailBreak.Name = "Jail Break"
+JailBreak.Parent = Home
+JailBreak.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+JailBreak.BorderColor3 = Color3.fromRGB(161, 161, 161)
+JailBreak.Position = UDim2.new(0.0123022795, 0, 0.530249059, 0)
+JailBreak.Size = UDim2.new(0, 151, 0, 43)
+JailBreak.Font = Enum.Font.SourceSans
+JailBreak.Text = "Jail Break"
+JailBreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak.TextSize = 14.000
+JailBreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+UICorner_12.Parent = JailBreak
+
+MadCity.Name = "Mad City"
+MadCity.Parent = Home
+MadCity.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+MadCity.BorderColor3 = Color3.fromRGB(161, 161, 161)
+MadCity.Position = UDim2.new(0.309314579, 0, 0.530249119, 0)
+MadCity.Size = UDim2.new(0, 151, 0, 43)
+MadCity.Font = Enum.Font.SourceSans
+MadCity.Text = "Mad City"
+MadCity.TextColor3 = Color3.fromRGB(0, 0, 0)
+MadCity.TextSize = 14.000
+MadCity.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
+end)
+
+UICorner_13.Parent = MadCity
+
+BeeSwarm.Name = "Bee Swarm"
+BeeSwarm.Parent = Home
+BeeSwarm.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+BeeSwarm.BorderColor3 = Color3.fromRGB(161, 161, 161)
+BeeSwarm.Position = UDim2.new(0.608084381, 0, 0.530249119, 0)
+BeeSwarm.Size = UDim2.new(0, 151, 0, 43)
+BeeSwarm.Font = Enum.Font.SourceSans
+BeeSwarm.Text = "Bee Swarm"
+BeeSwarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeeSwarm.TextSize = 14.000
+BeeSwarm.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+end)
+
+UICorner_14.Parent = BeeSwarm
+
+Test.Name = "Test"
+Test.Parent = Home
+Test.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+Test.BorderColor3 = Color3.fromRGB(161, 161, 161)
+Test.Position = UDim2.new(0.887006104, 0, 0.156583637, 0)
+Test.Size = UDim2.new(0, 57, 0, 230)
+Test.Font = Enum.Font.SourceSans
+Test.Text = "Print \"TEST\""
+Test.TextColor3 = Color3.fromRGB(0, 0, 0)
+Test.TextSize = 14.000
+Test.MouseButton1Down:connect(function()
+	print ("Test")
+end)
+
+UICorner_15.Parent = Test
+
+SonicSpeedSimulator.Name = "Sonic Speed Simulator"
+SonicSpeedSimulator.Parent = Home
+SonicSpeedSimulator.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+SonicSpeedSimulator.BorderColor3 = Color3.fromRGB(161, 161, 161)
+SonicSpeedSimulator.Position = UDim2.new(0.0123022795, 0, 0.708185077, 0)
+SonicSpeedSimulator.Size = UDim2.new(0, 151, 0, 43)
+SonicSpeedSimulator.Font = Enum.Font.SourceSans
+SonicSpeedSimulator.Text = "Sonic Speed Simulator"
+SonicSpeedSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+SonicSpeedSimulator.TextSize = 14.000
+SonicSpeedSimulator.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HadesRblx/src/master/HadesHub.lua", true))()
+end)
+
+UICorner_16.Parent = SonicSpeedSimulator
+
+TheLostLand.Name = "The Lost Land"
+TheLostLand.Parent = Home
+TheLostLand.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+TheLostLand.BorderColor3 = Color3.fromRGB(161, 161, 161)
+TheLostLand.Position = UDim2.new(0.309314579, 0, 0.708185077, 0)
+TheLostLand.Size = UDim2.new(0, 151, 0, 43)
+TheLostLand.Font = Enum.Font.SourceSans
+TheLostLand.Text = "The Lost Land"
+TheLostLand.TextColor3 = Color3.fromRGB(0, 0, 0)
+TheLostLand.TextSize = 14.000
+TheLostLand.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Akden1z/MainRutoHubLib/main/YesPeriod'))()
+end)
+
+UICorner_17.Parent = TheLostLand
+
+Petsimx.Name = "Pet sim x"
+Petsimx.Parent = Home
+Petsimx.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+Petsimx.BorderColor3 = Color3.fromRGB(161, 161, 161)
+Petsimx.Position = UDim2.new(0.608084381, 0, 0.708185077, 0)
+Petsimx.Size = UDim2.new(0, 151, 0, 43)
+Petsimx.Font = Enum.Font.SourceSans
+Petsimx.Text = "Pet Simulator X"
+Petsimx.TextColor3 = Color3.fromRGB(0, 0, 0)
+Petsimx.TextSize = 14.000
+Petsimx.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Akden1z/PetsimX/main/YesPeriod'))()
+end)
+
+UICorner_18.Parent = Petsimx
+
+COMINGSOON.Name = "C O M I N G S O O N"
+COMINGSOON.Parent = Home
+COMINGSOON.BackgroundColor3 = Color3.fromRGB(149, 147, 148)
+COMINGSOON.BorderColor3 = Color3.fromRGB(161, 161, 161)
+COMINGSOON.Position = UDim2.new(0.0123022851, 0, 0.88256228, 0)
+COMINGSOON.Size = UDim2.new(0, 490, 0, 26)
+COMINGSOON.Font = Enum.Font.SourceSans
+COMINGSOON.Text = "<--------------------------------------- C O O M I N G S O O N ------------------------------------------>"
+COMINGSOON.TextColor3 = Color3.fromRGB(0, 0, 0)
+COMINGSOON.TextSize = 14.000
+
+UICorner_19.Parent = COMINGSOON
+--- END ---
